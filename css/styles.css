@@ -1,0 +1,178 @@
+body{
+    font-family:"Montserrat";
+}
+
+#title{
+    background-color:#ff4c68;
+    color:#fff;
+    }
+
+.h1m{
+    font-family:"Montserrat";
+    size:4rem;
+    font-weight:bolder;
+    line-height:1.5;
+}
+.dog-image{
+    width:20%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:25%
+    
+}
+.container-fluid{
+    padding:3% 15% 7%;
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem ;
+
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.dwnld-button{
+margin:5% 3% 5% 0;
+}
+
+.middle{
+    margin:10% 5%;
+    text-align: center;
+}
+ 
+/* features  */
+
+#features{
+    padding:7% 15% ;
+    background-color: #fff;
+    position:relative;
+
+
+}
+
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    
+
+    text-align:center ;
+
+}
+
+
+.fasm{
+    color:#ef8172;
+    margin-bottom:1rem ;
+}
+
+.fasm:hover{
+    color:#ff4c68 ;
+}
+
+.h3i{
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+.pi{
+color:#8f8f8f;
+
+}
+
+
+/* testimonial Section */
+
+#testimonials{
+    background-color:#ef8172 ;
+    color:#fff; 
+    text-align:center;
+  
+}
+.h2i{
+    font-weight:bold ;
+    font-size: 2.5rem;
+
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin: 20px;
+}
+
+
+
+#press{
+    background-color:#ef8172 ;
+    text-align:center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 40px;
+}
+.carousel-item{
+    padding:7% 15%;
+
+}
+
+/* Pricing Section */
+#pricing{
+padding:100px;
+}
+.pricing-column {
+    padding:3% 2%;
+    text-align:center;
+}
+
+
+/* call tO action */
+
+#cta{
+    background-color:#ff4c68;
+    font-weight: bolder;
+   
+    text-align: center;
+    padding: 5% 10%;
+
+}
+.h3t{
+font-size:3.5rem;
+line-height: 1.5;
+padding:1%;
+font-weight:600;
+color: #fff;
+}
+
+#footer{
+    text-align:center;
+   padding:7% 15%;
+}
+.twt {
+    padding:3% 1%
+
+}
+a{
+    text-decoration: none;
+    color:#8f8f8f
+}
+
+/* for mobile */
+
+@media (max-width:900px){
+    #title{
+        text-align: center;
+
+    }
+    .dog-image{
+        transform: rotate(0);
+        position: static;
+        width:60%;
+
+    }
+}
+
