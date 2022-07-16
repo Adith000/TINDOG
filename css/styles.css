@@ -161,6 +161,16 @@ a{
     color:#8f8f8f
 }
 
+
+/*developers trademark*/
+.depsnote{
+opacity:10%;
+size:50px;
+color:black;
+text-align: center;
+}
+
+
 /* for mobile */
 
 @media (max-width:900px){
