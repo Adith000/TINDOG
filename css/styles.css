@@ -173,7 +173,7 @@ text-align: center;
 
 /* for mobile */
 
-@media (max-width:900px){
+@media (max-width:500px){
     #title{
         text-align: center;
 
