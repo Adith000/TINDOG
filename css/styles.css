@@ -128,6 +128,16 @@ padding:100px;
     padding:3% 2%;
     text-align:center;
 }
+.pricing-text{
+    font-family:"Roboto Mono";
+    font-size:2.5rem;
+    line-height:1.5;
+}
+.pricing-text-1{
+    font-family:"Montserrat";
+    font-size:3rem;
+    line-height:1.5; 
+}
 
 
 /* call tO action */
