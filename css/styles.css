@@ -183,7 +183,7 @@ text-align: center;
 
 /* for mobile */
 
-@media (max-width:499px){
+@media (max-width:900px){
     #title{
         text-align: center;
 
