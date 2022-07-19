@@ -5,6 +5,7 @@ body{
 #title{
     background-color:#ff4c68;
     color:#fff;
+    text-align:center;
     }
 
 .h1m{
@@ -183,7 +184,7 @@ text-align: center;
 
 /* for mobile */
 
-@media (max-width:900px){
+@media (max-width:1028px){
     #title{
         text-align: center;
 
