@@ -1,29 +1,23 @@
 body{
     font-family:"Montserrat";
+    text-align: center;
 }
 
-#title{
+.container-fluid{
+    padding:7% 15%;
+}
+
+
+.coloured-section{
     background-color:#ff4c68;
     color:#fff;
-    text-align:center;
-    }
+}
 
-.h1m{
-    font-family:"Montserrat";
-    size:4rem;
-    font-weight:bolder;
-    line-height:1.5;
+.white-section{
+    background-color: #fff;
+
 }
-.dog-image{
-    width:20%;
-    transform: rotate(25deg);
-    position:absolute;
-    right:25%
-    
-}
-.container-fluid{
-    padding:3% 15% 7%;
-}
+
 /* navigation bar */
 .navbar{
     padding:0 0 4.5rem ;
@@ -43,24 +37,46 @@ margin:5% 3% 5% 0;
     margin:10% 5%;
     text-align: center;
 }
- 
-/* features  */
 
-#features{
-    padding:7% 15% ;
-    background-color: #fff;
-    position:relative;
 
+/* Title Section */
+#title{
+    text-align: left;
+}
+
+#title  .container-fluid{
+    padding:3% 15% 7%;
+    text-align: center;
+    float: center;
+}
+
+
+.h1m{
+text-align: center;
+font-family:"Montserrat";
+size:4rem;
+font-weight:bolder;
+line-height:1.5;
+}
+.dog-image{
+width:20%;
+transform: rotate(25deg);
+position:absolute;
+right:25%
 
 }
 
 
 
+/* features  */
+
+#features{
+    position:relative;
+}
+
 .feature-box{
     text-align: center;
     padding: 5%;
-    
-
     text-align:center ;
 
 }
@@ -116,10 +132,7 @@ color:#8f8f8f;
     width:15%;
     margin:20px 20px 40px;
 }
-.carousel-item{
-    padding:7% 15%;
 
-}
 
 /* Pricing Section */
 #pricing{
@@ -129,6 +142,7 @@ padding:100px;
     padding:3% 2%;
     text-align:center;
 }
+
 .pricing-text{
     font-family:"Roboto Mono";
     font-size:2.5rem;
@@ -139,7 +153,6 @@ padding:100px;
     font-size:3rem;
     line-height:1.5; 
 }
-
 
 /* call tO action */
 
@@ -172,28 +185,29 @@ a{
     color:#8f8f8f
 }
 
-
 /*developers trademark*/
+
 .depsnote{
 opacity:10%;
 size:50px;
-color:black;
+color:rgb(17, 2, 2);
 text-align: center;
 }
 
 
-/* for mobile */
 
-@media (max-width:1028px){
+/* for mobile */
+@media (max-width: 1028px) { 
     #title{
         text-align: center;
 
     }
     .dog-image{
         transform: rotate(0);
-        position: static;
+        position:static;
         width:60%;
+        align-items: center;
+                
 
     }
-}
-
+ }
