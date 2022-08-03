@@ -19,6 +19,11 @@ body{
 }
 
 /* navigation bar */
+
+.container-fluid1{
+    padding:5% 15%;
+}
+
 .navbar{
     padding:0 0 4.5rem ;
 
@@ -207,7 +212,9 @@ text-align: center;
         position:static;
         width:60%;
         align-items: center;
-                
-
+ 
+    }
+    .container-fluid1{
+        padding:5%;
     }
  }
